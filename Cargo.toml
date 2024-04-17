@@ -2,6 +2,12 @@
 name = "assign1"
 version = "0.1.0"
 edition = "2021"
+license = "student pass"
+description = "Sorting code"
+homepage = "None"
+repository = "https://github.com/Lin0Andy/BT2_Assignment1.git"
+readme = "README.md"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
