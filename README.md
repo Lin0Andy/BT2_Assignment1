@@ -24,7 +24,7 @@ assign1 = "0.1.0"`
 
 Here's a simple example demonstrating how to use the sorting functions provided by this library:
 
-```use sorting_library::{quick_sort, selection_sort, insertion_sort, merge_sort};
+```use assign1::{quick_sort, selection_sort, insertion_sort, merge_sort};
 
 fn main() {
     let mut numbers = vec![3, 1, 4, 1, 5, 9, 2, 6];
