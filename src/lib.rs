@@ -1,14 +1,11 @@
-pub fn add(left: usize, right: usize) -> usize {
-    left + right
-}
 
-#[cfg(test)]
-mod tests {
-    use super::*;
+mod quick_sort;
+mod selection_sort;
+mod insertion_sort;
+mod merge_sort;
 
-    #[test]
-    fn it_works() {
-        let result = add(2, 2);
-        assert_eq!(result, 4);
-    }
-}
+
+pub use quick_sort::quick_sort;
+pub use selection_sort::selection_sort;
+pub use insertion_sort::insertion_sort;
+pub use merge_sort::merge_sort;
