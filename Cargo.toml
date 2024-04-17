@@ -2,7 +2,7 @@
 name = "assign1"
 version = "0.1.0"
 edition = "2021"
-license = "student pass"
+license = "MIT OR Apache-2.0"
 description = "Sorting code"
 homepage = "None"
 repository = "https://github.com/Lin0Andy/BT2_Assignment1.git"
