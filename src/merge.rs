@@ -1,17 +1,17 @@
 pub fn merge_sort<T: Ord + Clone>(arr: &mut [T]) {
-    if arr.len() <= 1 {
+    let len = arr.len();
+    if len <= 1 {
         return;
     }
-    let mid = arr.len() / 2;
-    let (left, right) = arr.split_at(mid);
-    let mut merged = Vec::with_capacity(arr.len());
+    let mid = len / 2;
+    let (left, right) = arr.split_at_mut(mid);
     merge_sort(left);
     merge_sort(right);
-    merge(left, right, &mut merged);
-    arr.copy_from_slice(&merged);
+    merge(left, right);
 }
 
-fn merge<T: Ord + Clone>(left: &[T], right: &[T], merged: &mut Vec<T>) {
+fn merge<T: Ord + Clone>(left: &mut [T], right: &mut [T]) {
+    let mut merged = Vec::with_capacity(left.len() + right.len());
     let mut left_index = 0;
     let mut right_index = 0;
     while left_index < left.len() && right_index < right.len() {
@@ -23,7 +23,10 @@ fn merge<T: Ord + Clone>(left: &[T], right: &[T], merged: &mut Vec<T>) {
             right_index += 1;
         }
     }
-    // Copy remaining elements from left and right if any
     merged.extend_from_slice(&left[left_index..]);
     merged.extend_from_slice(&right[right_index..]);
+
+    for (i, elem) in merged.into_iter().enumerate() {
+        left[i] = elem;
+    }
 }
