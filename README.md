@@ -8,10 +8,11 @@ To use this library in your Rust project, add the following line to your `Cargo.
 
 ```toml
 [dependencies]
-assign1 = "0.1.0"
+assign1 = "0.1.0"```
 
 ## Demo Screenshots
 
+![image](https://github.com/Lin0Andy/BT2_Assignment1/assets/121328479/f0e18cc4-8a72-4eb8-b9fe-1df97fe7a32c)
 
 
 ## Examples
