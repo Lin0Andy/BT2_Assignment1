@@ -4,15 +4,15 @@
 
 This Rust library crate provides sorting algorithms for sorting various types of objects. It includes implementations of Quick Sort, Selection Sort, Insertion Sort, and Merge Sort.
 
-To use this library in your Rust project, add the following line to your `Cargo.toml` file:
+To use this library in your Rust project, add the following line to your 'Cargo.toml' file:
 
 ```toml
 [dependencies]
-assign1 = "0.1.0"```
+assign1 = "0.1.0" ```
 
 ## Demo Screenshots
 
-![image](https://github.com/Lin0Andy/BT2_Assignment1/assets/121328479/f0e18cc4-8a72-4eb8-b9fe-1df97fe7a32c)
+![image](https://github.com/Lin0Andy/BT2_Assignment1/assets/121328479/44680b2f-36df-4223-9946-030c4f1285fb)
 
 
 ## Examples
