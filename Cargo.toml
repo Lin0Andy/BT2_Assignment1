@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "Sorting code"
-homepage = "None"
+homepage = "https://github.com/Lin0Andy/BT2_Assignment1/tree/master"
 repository = "https://github.com/Lin0Andy/BT2_Assignment1.git"
 readme = "README.md"
 
